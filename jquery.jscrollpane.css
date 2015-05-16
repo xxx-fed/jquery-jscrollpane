@@ -4,19 +4,11 @@
  * Include this stylesheet in your site or copy and paste the styles below into your stylesheet - jScrollPane
  * may not operate correctly without them.
  */
-.jspScrollable {
-	outline: 0;
-}
 
 .jspContainer
 {
 	overflow: hidden;
 	position: relative;
-	&:hover {
-		.jspDrag {
-			visibility: visible;
-		}
-	}
 }
 
 .jspPane
@@ -29,9 +21,9 @@
 	position: absolute;
 	top: 0;
 	right: 0;
-	width: 13px;
+	width: 16px;
 	height: 100%;
-	//background: red;
+	background: red;
 }
 
 .jspHorizontalBar
@@ -40,15 +32,8 @@
 	bottom: 0;
 	left: 0;
 	width: 100%;
-	height: 13px;
-	//background: red;
-}
-
-.jspVerticalBar *,
-.jspHorizontalBar *
-{
-	margin: 0;
-	padding: 0;
+	height: 16px;
+	background: red;
 }
 
 .jspCap
@@ -63,27 +48,18 @@
 
 .jspTrack
 {
-	// background: #dde;
+	background: #dde;
 	position: relative;
-	&:hover {
-		.jspDrag{
-			background: #fa0;
-		}
-	}
 }
 
 .jspDrag
 {
-	background: #afbebe;
+	background: #bbd;
 	position: relative;
 	top: 0;
 	left: 0;
 	cursor: pointer;
-	border-radius: 8px;
-	width: 8px;
-	visibility:hidden;
 }
-
 
 .jspHorizontalBar .jspTrack,
 .jspHorizontalBar .jspDrag
@@ -98,6 +74,8 @@
 	text-indent: -20000px;
 	display: block;
 	cursor: pointer;
+	padding: 0;
+	margin: 0;
 }
 
 .jspArrow.jspDisabled
