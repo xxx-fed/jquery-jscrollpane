@@ -1,0 +1,10 @@
+{
+	//无github仓库
+    "repos": "http://jscrollpane.kelvinluck.com",
+    "version": "v2.0.22",
+    "name": "jScrollPane",
+    "main": "jquery.jscrollpane.js",
+    "dependencies": [
+        "huya-fed/jquery-mousewheel"
+    ]
+}
