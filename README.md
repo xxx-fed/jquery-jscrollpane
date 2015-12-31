@@ -20,7 +20,6 @@ http://jscrollpane.kelvinluck.com/settings.html#animateScroll
 
 	require('jquery-mousewheel');
 	require('jquery-jscrollpane');
-        require('jquery-mousewheel');
 
 	$('.scroll-pane').jScrollPane();
 
