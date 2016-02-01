@@ -16,10 +16,10 @@ http://jscrollpane.kelvinluck.com/settings.html#animateScroll
 
 ###第二种，已fis的component的组件生态引用
 
-	@import "components/jScrollPane/jquery.jscrollpane.css";
+	@import "components/jquery-jscrollpane/jquery.jscrollpane.css";
 
 	require('jquery-mousewheel');
-	require('jScrollPane');
+	require('jquery-jscrollpane');
 
 	$('.scroll-pane').jScrollPane();
 
